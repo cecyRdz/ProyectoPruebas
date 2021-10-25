@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ESCUELA SECUNDARIA VILLA ROSA</title>
+</head>
+<body>
+    <h1>LISTADO DE CICLOS</h1>
+    <a href="/ciclosNuevo"><img src="{{url_for('static',filename='imagenes/nuevo.png')}}" width= 15px height= 15px /></a>
+    <br/>
+    <table>
+        <tr>
+            <th>ID CICLO</th>
+            <th>NOMBRE</th>
+            <th>EDITAR</th>
+            <th>ELIMINAR</th>
+        </tr>
+        <td>
+            <th>1</th>
+            <th>2019 - 2020</th>
+            <th><a href="/ciclosEditar">Editar</a></th>
+            <th><a href="/ciclosEliminar">Eliminar</a></th>
+        </td>
+    </table>
+</body>
+</html>
